@@ -43,7 +43,7 @@ This project provides a comprehensive analysis of the EV market in Washington St
 
 ## Data Source
 
-Data sourced from the Washington State Department of Licensing (DOL) regarding Battery Electric Vehicles (BEVs) and Plug-In Hybrid Electric Vehicles (PHEVs) registrations.
+Data sourced from the Washington State Department of Licensing (DOL) regarding Battery Electric Vehicles (BEVs) and Plug-In Hybrid Electric Vehicles (PHEVs) registrations. The dataset used is "Electric_Vehicle_Population_Data_20250402.csv" from the Washington State Department of Licensing, which contains detailed information about EV registrations across the state.
 
 ## License
 
