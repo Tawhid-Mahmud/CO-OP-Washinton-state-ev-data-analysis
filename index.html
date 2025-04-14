@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washington State EV Dealership Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-car"></i>
+                <span>EV Dealership Analysis</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#summary">Overview</a></li>
+                <li><a href="#visualizations">Market Data</a></li>
+                <li><a href="#recommendations">Investment Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="summary" class="summary">
+            <div class="summary-content">
+                <h2>Washington State EV Market Analysis</h2>
+                <div class="summary-grid">
+                    <div class="summary-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Market Growth</h3>
+                        <p>223+ EVs registered in 2024 with 34% year-over-year growth. The Clean Cars 2030 bill presents a prime investment opportunity.</p>
+                    </div>
+                    <div class="summary-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Prime Location</h3>
+                        <p>King County identified as the optimal location for EV dealership establishment, with highest market potential.</p>
+                    </div>
+                    <div class="summary-card">
+                        <i class="fas fa-car-battery"></i>
+                        <h3>Brand Strategy</h3>
+                        <p>Nissan EV dealership recommended as the strategic choice, positioned as the second most popular EV brand in the state.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="visualizations" class="visualizations">
+            <h2>Market Data Visualizations</h2>
+            <div class="viz-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
+                <div class="viz-wrapper" style="flex: 1; min-width: 400px;">
+                    <div class='tableauPlaceholder' id='viz1744647481003' style='position: relative'>
+                        <noscript>
+                            <a href='#'>
+                                <img alt='Dashboard 1' src='https://public.tableau.com/static/images/Co/Co-opproject/Dashboard1/1_rss.png' style='border: none' />
+                            </a>
+                        </noscript>
+                        <object class='tableauViz' style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='path' value='views/Co-opproject/Dashboard1?:language=en-US&:embed=true&:sid=&:redirect=auth' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https://public.tableau.com/static/images/Co/Co-opproject/Dashboard1/1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en-US' />
+                        </object>
+                    </div>
+                </div>
+                <div class="viz-wrapper" style="flex: 1; min-width: 400px;">
+                    <div class='tableauPlaceholder' id='viz1744649628404' style='position: relative'>
+                        <noscript>
+                            <a href='#'>
+                                <img alt='Dashboard 2 ' src='https://public.tableau.com/static/images/Co/Co-opproject/Dashboard2/1_rss.png' style='border: none' />
+                            </a>
+                        </noscript>
+                        <object class='tableauViz' style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='path' value='views/Co-opproject/Dashboard2?:language=en-US&:embed=true&:sid=&:redirect=auth' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https://public.tableau.com/static/images/Co/Co-opproject/Dashboard2/1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en-US' />
+                        </object>
+                    </div>
+                </div>
+            </div>
+            <script type='text/javascript'>
+                function resizeViz() {
+                    const viz1 = document.getElementById('viz1744647481003');
+                    const viz2 = document.getElementById('viz1744649628404');
+                    const viz1Object = viz1.getElementsByTagName('object')[0];
+                    const viz2Object = viz2.getElementsByTagName('object')[0];
+                    
+                    const containerWidth = viz1.offsetWidth;
+                    viz1Object.style.width = '100%';
+                    viz1Object.style.height = (containerWidth * 0.75) + 'px';
+                    viz2Object.style.width = '100%';
+                    viz2Object.style.height = (containerWidth * 0.75) + 'px';
+                }
+
+                resizeViz();
+                window.addEventListener('resize', resizeViz);
+
+                const scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                document.body.appendChild(scriptElement);
+            </script>
+        </section>
+
+        <section id="recommendations" class="recommendations">
+            <h2>Investment Recommendations</h2>
+            <div class="recommendations-content">
+                <div class="recommendation-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Location Strategy</h3>
+                    <p>King county presents the most strategic location for establishing an electric vehicle dealership in Washington state</p>
+                </div>
+                <div class="recommendation-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Timing</h3>
+                    <p>Key moment to invest in EVs in the state of Washington due to their Clean Cars 2030 bill</p>
+                </div>
+                <div class="recommendation-card">
+                    <i class="fas fa-car-side"></i>
+                    <h3>Brand Selection</h3>
+                    <p>Invest in a Nissan EV dealership as it is the 2nd most popular make and Tesla does not have dealerships</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Washington State EV Dealership Analysis</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
