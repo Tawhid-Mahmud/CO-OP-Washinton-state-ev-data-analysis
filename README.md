@@ -2,7 +2,7 @@
 
 A web-based analysis tool for evaluating the electric vehicle market in Washington State, specifically designed for potential EV dealership investors.
 
-LIVE WEB PAGE https://github.com/Tawhid-Mahmud/CO-OP-Washinton-state-ev-data-analysis
+LIVE WEB PAGE [https://github.com/Tawhid-Mahmud/CO-OP-Washinton-state-ev-data-analysis](https://resplendent-froyo-f7e3f2.netlify.app/)
 
 ## Overview
 
